@@ -2,6 +2,7 @@ import React from 'react';
 import { Route, Link, Switch } from 'react-router-dom';
 import Home from './Home';
 import Resources from './Resources';
+import FunctionalComponent from '../concepts/FunctionalComponentDemo';
 
 const Sidebar = () => (
   <div className="sidebar">
@@ -18,6 +19,7 @@ const Sidebar = () => (
         <Route exact path="/home"><Home/></Route>
         <Route exact path="/resources"><Resources/></Route>
         <Route exact path="/"><Home/></Route>
+        <Route exact path="/functionalcomponent"><FunctionalComponent/></Route>
       </Switch>
     </div>
   </div>
