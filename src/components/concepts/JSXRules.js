@@ -1,4 +1,5 @@
-import Reat from 'react';
+import React from 'react';
+import JSXCompiler from './JSXCompiler';
 
 const JSXRules = () => {
   return (
@@ -12,6 +13,9 @@ const JSXRules = () => {
           <dt>Not Required</dt>
           <dd>Developers don't have to use JSX</dd>
         </dl>
+        <hr />
+        <h1>Egghead.io's JSX Compiler</h1>
+        <JSXCompiler />
       </div>
     </div>
   )
